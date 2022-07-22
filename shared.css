@@ -3,34 +3,38 @@
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin: 0;
 }
 
 .main-header {
   width: 100%;
+  position: fixed;
   background: #2ddf5c;
   padding: 8px 16px;
+  z-index: 10;
+  margin-top: 0;
+  top: 0;
 }
 
 .main-header > div {
   display: inline-block;
   vertical-align: middle;
 }
-.button{
+.button {
   background: #0e4f1f;
   color: white;
   font: inherit;
   border: 1.5px solid #0e4f1f;
-  padding:8px;
+  padding: 8px;
   border-radius: 8px;
   font-weight: bold;
   cursor: pointer;
 }
 .button:hover,
-.button:active{
-background: white;
-color:#0e4f1f;
+.button:active {
+  background: white;
+  color: #0e4f1f;
 }
 .main-header__brand {
   color: #0e4f1f;
@@ -44,6 +48,7 @@ color:#0e4f1f;
   text-align: right;
   width: calc(100% - 74px);
   vertical-align: middle;
+  position: fixed;
 }
 
 .main-nav__items {
@@ -83,34 +88,32 @@ color:#0e4f1f;
   background: white;
   border: none;
 }
-.main-footer{
-    
+.main-footer {
   background: black;
   padding: 32px;
   margin-top: 48px;
   text-align: center;
 }
 
-.main-footer_li{
+.main-footer_li {
   list-style: none;
-  
+
   display: inline-block;
   margin: 0 16px;
-  
 }
-.main-footer_li a{  
+.main-footer_li a {
   color: white;
   text-decoration: none;
 }
 .main-footer_li a:active,
-.main-footer_li a:hover{
+.main-footer_li a:hover {
   color: #ccc;
 }
-.main-footer_ul{
+.main-footer_ul {
   text-align: center;
   margin: 0;
   padding: 0;
 }
-.main-footer_nav{
+.main-footer_nav {
   text-align: center;
 }
