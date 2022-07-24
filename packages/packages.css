@@ -27,6 +27,7 @@
 }
 .top-plan {
   background: rgba(213, 255, 220, 0.95);
+  margin-top: 32px;
 }
 .clearfix {
   clear: both;
