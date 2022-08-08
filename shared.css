@@ -127,7 +127,7 @@ body {
   position: fixed;
   height: 100vh;
   z-index: 20;
-  display: none;
+  /* display: none; */
   left: 0;
   top: 0;
 }
